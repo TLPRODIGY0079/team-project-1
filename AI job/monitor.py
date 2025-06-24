@@ -28,7 +28,7 @@ while True:
 
     # Draw rectangles around detected faces
     for (x, y, w, h) in faces:
-        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
+        cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 265, 0), 2)
 
     # Timestamped status logging
     current_time = time.time()
